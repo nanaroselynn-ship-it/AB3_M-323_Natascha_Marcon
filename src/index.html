@@ -1,26 +1,31 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    <script src="https://cdn.tailwindcss.com"></script>
-
     <meta charset="UTF-8">
-    <title>Nana Seite</title>
-
-    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Piranha District - Tailwind</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header> 
-         <h1>Welcome to Piranha District</h1>
+
+<body class="bg-[url('assets/piranha.jpg')] bg-cover bg-fixed bg-center min-h-screen font-sans m-0">
+
+    <header class="bg-white/90 p-[15px] mb-[10px] rounded-[5px] border-b-[3px] border-[#333] mx-5 mt-5"> 
+         <h1 class="text-3xl font-bold">Welcome to Piranha District</h1>
     </header>
-    <main> 
-        <section>
-            <h2>Was führt Sie hier hin?</h2>
+
+    <main class="mx-5"> 
+    
+        <section class="bg-white/90 p-[15px] mb-[10px] rounded-[5px] inline-block shadow-lg">
+            <h2 class="text-xl mb-4">Was führt Sie hier hin?</h2>
         
-            <img src="assets/piranha.jpg" alt="Piranha Logo" width="300">
+            
+            <img src="assets/piranha.jpg" alt="Piranha Logo" class="w-[300px] h-auto">
         </section>
     </main>
-    <footer> 
+
+    <footer class="bg-white/90 p-[15px] mb-[10px] rounded-[5px] text-center text-[0.8em] mx-5"> 
         <p>&copy; 1998 - Piranha District</p>
     </footer>
+
 </body>
 </html>
